@@ -1,0 +1,27 @@
+{
+  "name": "wenssend",
+  "version": "1.0.0",
+  "description": "It's a plataform of message for all world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"node index.js\" \"node backend/index.js\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warling-lopez/Wenssend.git"
+  },
+  "author": "Warling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warling-lopez/Wenssend/issues"
+  },
+  "homepage": "https://github.com/warling-lopez/Wenssend#readme",
+  "dependencies": {
+    "concurrently": "^9.1.0",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "ws": "^8.18.0"
+  }
+}

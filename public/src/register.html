@@ -1,0 +1,25 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Usuario</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Registro</h1>
+    <form method="dialog" action="./index.html">
+      <input id="nombre" type="text" name="nombre" placeholder="Nombre completo" required>
+      <input id="email" type="email" name="email" placeholder="Correo electrónico" required>
+      <input id="password"   type="password" name="password" placeholder="Contraseña" required>
+      <input id="passwordConfirm" type="password" name="passwordConfirm" placeholder="Confirmar Contraseña" required>
+      <button onclick="agregarUsusario()" >Registrarse</button>
+    </form>
+    <div class="link">
+      <p>¿Ya tienes una cuenta? <a href="#">Inicia sesión</a></p>
+    </div>
+  </div>
+  <script src="./json/users_globars.js"></script>
+  <script src="../logic/register.js"></script>
+</body>
+</html>
